@@ -1,0 +1,7 @@
+const date= new Date()
+    const fullDate= new Intl.DateTimeFormat("en-us",{
+        dateStyle:"full"
+    })
+
+     <h6>{fullDate.format(date)}</h6>
+     <h5>Today's Paper</h5>

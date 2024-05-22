@@ -1,13 +1,128 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.google.com/?query=+Bebas+Neue');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+
+#main{
+    height:100vh;
+}
+.title{
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+  }
+
+pre{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 12px;
+}
+h6{
+    font-size: 13px;
+    font-weight: 490;
+
+}
+.news{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 5px 5px 3px rgb(205, 38, 38) ;
+}
+.title{
+    margin-bottom: -10px;
+}
+.two{
+    margin-left: 400px;
+}
+.one{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+nav{
+    margin-top: -8px;
+}
+.navbar-toggler {  
+    margin-left: 88%;
+  }
+.logo{
+    margin-left: 30px;
+}
+.card{
+    box-shadow: 3px 7px 4px rgb(197, 197, 197);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-item{
+    margin-left: 8px;
+}
+.footer{
+    color: white;
+    height: 150px;
+    width: 100%;
+}
+.li{
+    margin-left: 25px;
+    color: rgb(169, 169, 169);
+    text-decoration: none;
+}
+.copy{
+    font-size: 10px;
+    margin-top:10px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.li:hover{
+    color: white;
+}
+.im{
+    margin-top: -5px;
+}
+.News{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    font-style: italic;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 4px;
+   
+}
+.logo{
+   
+    margin-top: -30px;
+}
+.logo1{
+    text-decoration: none;
+}
+.cat{
+    margin-left: 75px;
+    font-weight:600;
+}
+.spin{
+    margin-top: 65px;
+}
+.footerhome{
+    text-decoration: none;
+    color: white;
+}
+.card-title{
+    font-size: 18px;
+
+}
+.card-text{
+    font-size: 13px;
+  
+}
+.card-body:hover{
+    background-color: rgb(244, 251, 255);
+    cursor: pointer;
+}
+.cardA{
+    text-decoration: none;
+    
+}
+.nav-link:focus  {
+    color: white;
 }
